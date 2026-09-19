@@ -1,0 +1,51 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ML
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+
+# Datasets
+datasets/
+data/
+*.zip
+
+# Media
+uploads/
+media/
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
